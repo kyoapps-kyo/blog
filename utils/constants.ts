@@ -1,0 +1,13 @@
+const WAIT_TIME_1000 = '^1000'
+const WAIT_TIME_700 = '^700'
+const WAIT_TIME_500 = '^500'
+const WAIT_TIME_300 = '^300'
+const WAIT_TIME_100 = '^100'
+
+export {
+    WAIT_TIME_1000,
+    WAIT_TIME_700,
+    WAIT_TIME_500,
+    WAIT_TIME_300,
+    WAIT_TIME_100
+}
