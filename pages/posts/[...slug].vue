@@ -5,8 +5,12 @@
 </template>
 
 <script setup lang='ts'>
-const {page, prev, next } = useContent()
-const head = useHead(page)
+// const { page } = useContent()
+// const head = useHead(page)
+// 以上代码有问题
+const { page } = useContent()
+useContentHead(page)
+//修复
 </script>
 
 <style scoped></style>
