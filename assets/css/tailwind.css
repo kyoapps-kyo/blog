@@ -24,3 +24,9 @@ body {
 .rainbow-bg-second {
 	@apply bg-gradient-to-r to-secondary from-accent-focus;
 }
+.stroke-text{
+	@apply  font-black;
+	color: transparent;
+	-webkit-text-stroke: .5rem hsl(var(--p));
+	text-stroke: .5rem hsl(var(--p));
+}

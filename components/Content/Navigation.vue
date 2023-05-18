@@ -1,40 +1,37 @@
 <script setup lang="ts">
+import { dateToEnDate } from '@/utils/dateFormate'
 interface NavItem {
-  title: string
   _path: string
-  _id?: string
-  _draft?: boolean
-  children?: NavItem[]
-
+  navigation: navigation
+}
+interface navigation {
+  title: string
+  date: string
   [key: string]: any
 }
-const props = defineProps({
-  navigationTree: {
-    type: Array as  ()=> NavItem[],
+defineProps({
+  navigation: {
+    type: Array as () => NavItem[],
     default: () => []
   }
 })
-console.log(props.navigationTree);
-
 </script>
 
 <template>
-  <ul class="navigation">
-    <li v-for="(item, index) in navigationTree" :key="index">
+  <ul class="navigation flex flex-col gap-y-10 z-40">
+    <li v-for="(item, index) in navigation" :key="index">
       <NuxtLink :to="item._path">
-        {{ item.title }}
+        <p class="py-2">{{ item.navigation.title }}</p>
       </NuxtLink>
-      <ContentNavigation v-if="item.children" :navigation-tree="item.children" class="sub-navigation" />
+      <span class="hidden">{{ `category` }}</span>
+      <span class="text-base-content text-base opacity-60">{{ dateToEnDate(item.navigation.date as string) }}</span>
+
     </li>
   </ul>
 </template>
 
 <style scoped>
 .navigation li {
-  list-style-type: "_ ";
-}
-
-.navigation ul {
-  margin-left: 0.8rem;
+  list-style-type: "· ";
 }
 </style>
