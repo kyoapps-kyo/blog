@@ -2,8 +2,8 @@
     <div>
         <ul class="menu menu-horizontal gap-x-4">
             <li>
-                <div>
-                    <ul class="hidden lg:flex lg:flex-row">
+                <div class="hidden lg:block">
+                    <ul class=" lg:flex lg:flex-row">
                         <NavItems></NavItems>
                     </ul>
                 </div>
