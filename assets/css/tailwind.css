@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Mona Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Mono Sans', 'Microsoft Yahei','PingFang SC', Helvetica, Arial, sans-serif;
   }
 
 .preview {
