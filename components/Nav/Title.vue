@@ -1,7 +1,6 @@
 <template>
     <div>
-        <NuxtLink to="/" class="btn btn-ghost normal-case text-lg lg:text-xl"><span class="text-primary">{{ first}}</span><span>{{ next }}</span></NuxtLink>
-    <pre>{{  }}</pre>
+        <NuxtLink to="/" class="btn btn-ghost normal-case text-lg lg:text-xl"><span class="rainbow-text-primary">{{ first}}</span><span>{{ next }}</span></NuxtLink>
     </div>
 </template>
 

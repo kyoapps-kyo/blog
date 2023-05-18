@@ -4,9 +4,10 @@ export default defineAppConfig({
     youtubeUrl: ""
   },
   site : {
-    title: "Frontend Minds And AI",
+    // title: "Frontend Minds And AI",
+    title: 'WK',
     themes :[
-      "cmyk", "valentine", "cyberpunk", "dracula", "night", "dark"
+      "light", "corporate", "business", "dracula", "night", "dark"
     ]
   }
 });
