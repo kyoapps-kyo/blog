@@ -5,7 +5,8 @@
 </template>
 
 <script setup lang='ts'>
-
+const {page, prev, next } = useContent()
+const head = useHead(page)
 </script>
 
 <style scoped></style>
