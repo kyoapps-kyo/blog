@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto mt-4 lg:mt-20 p-8">
-        <ContentDoc class="prose-sm md:prose lg:prose-xl mx-auto" />
+        <ContentDoc class="prose-sm md:prose lg:prose-xl mx-auto prose-pre:mockup-code" />
     </div>
 </template>
 
@@ -13,4 +13,5 @@ useContentHead(page)
 //修复
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
