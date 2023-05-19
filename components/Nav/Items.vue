@@ -12,14 +12,14 @@ const list = [
     //     link: '/archive',
     //     title: '归档'
     // },
-    // {
-    //     link: '/categories',
-    //     title: '分类'
-    // },
-    // {
-    //     link: '/tags',
-    //     title: '标签'
-    // }
+    {
+        link: '/category',
+        title: '分类'
+    },
+    {
+        link: '/tag',
+        title: '标签'
+    }
 ]
 </script>
 

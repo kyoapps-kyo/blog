@@ -1,10 +1,10 @@
 <template>
-    <div class="mb-10 lg:mb-28 lg:mt-6 flex flex-col items-center justify-center px-6">
+    <div class="mb-10 lg:mb-28 lg:mt-32 flex flex-col items-center justify-center px-6">
         <div class="flex w-full max-w-4xl flex-col gap-24 print:gap-10">
             <div></div>
-            <div class="flex flex-col gap-6 print:mt-10 print:gap-2 mb-18">
-                <h1 class="text-3xl md:text-6xl rainbow-text-primary" style="font-variation-settings: 'wdth' 125;"><span
-                        class="font-black">Wuyang </span>
+            <div class="flex flex-col gap-6 mb-18">
+                <h1 class="text-3xl md:text-6xl rainbow-text-primary md:leading-[5rem]">
+                    <span class="font-black">Wuyang </span>
                     <span class="font-extralight">Kyo.</span>
                 </h1>
                 <h2><span ref="typedEl" class="md:text-xl rainbow-text-second"></span></h2>

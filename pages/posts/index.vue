@@ -29,7 +29,7 @@ interface NavItem {
 }
 
 const queryNavItems = async (): Promise<NavItem[]> => {
-  const navItems = await queryContent('posts', 'articles').find()
+  const navItems = await queryContent('posts').find()
   return navItems
     .filter((item): item is any & { _path: string } => Boolean(item._path))
     .map((item) => ({ _path: item._path, navigation: item.navigation }))

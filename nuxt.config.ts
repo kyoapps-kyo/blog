@@ -4,7 +4,8 @@ export default defineNuxtConfig({
       '@nuxtjs/tailwindcss',
       '@nuxtjs/color-mode',
       'nuxt-icon',
-      '@nuxt/content'
+      '@nuxt/content',
+      '@nuxtjs/algolia'
     ],
     content: {
       documentDriven: {

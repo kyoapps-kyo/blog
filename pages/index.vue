@@ -27,5 +27,6 @@ const head = useHead({
             </div>
         </Hero>
     </div>
+    <Search></Search>
 </template>
 <style scoped></style>
