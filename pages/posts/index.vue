@@ -3,7 +3,7 @@
         <h2 class="text-4xl font-bold mb-10 text-base-content">Posts</h2>
         <template v-for="a in navItemsArrayByYear">
             <div class=" relative min-h-[8rem] mb-10">
-                <h2
+                <h2 v-if="a.year !== 'NaN' && a.year !== undefined"
                     class="absolute -top-10 -left-10 text-[9rem] leading-[9rem] opacity-20 stroke-text font-mono z-0 pointer-events-none">
                     {{ a.year }}</h2>
                 <div class=" min-h-[6rem] text-xl text-base-content font-medium text-opacity-90 px-6 z-10">

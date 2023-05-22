@@ -20,11 +20,14 @@ defineProps({
 <template>
   <ul class="navigation flex flex-col gap-y-2 z-40">
     <li v-for="(item, index) in navigation" :key="index">
-      <NuxtLink :to="item._path">
-        <p class="py-2">{{ item.navigation.title }}</p>
-      </NuxtLink>
-      <span class="hidden">{{ `category` }}</span>
-      <span class="text-base-content text-base opacity-60 font-mono">{{ dateToEnDate(item.navigation.date as string) }}</span>
+      <template v-if="item.navigation">
+        <NuxtLink :to="item._path">
+          <p class="py-2">{{ item.navigation.title }}</p>
+        </NuxtLink>
+        <span class="hidden">{{ `category` }}</span>
+        <span class="text-base-content text-base opacity-60 font-mono">{{ dateToEnDate(item.navigation.date as string)
+        }}</span>
+      </template>
     </li>
   </ul>
 </template>
