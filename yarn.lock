@@ -1568,6 +1568,11 @@
     hookable "^5.5.3"
     unhead "1.1.26"
 
+"@vercel/analytics@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
+  integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+
 "@vercel/nft@^0.22.6":
   version "0.22.6"
   resolved "https://registry.npmmirror.com/@vercel/nft/-/nft-0.22.6.tgz#edb30d300bb809c0945ea4c7b87e56f634885541"
@@ -6253,6 +6258,15 @@ nuxt-icon@^0.4.0:
   dependencies:
     "@iconify/vue" "^4.1.1"
     "@nuxt/kit" "^3.4.2"
+
+nuxt-vercel-analytics@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmmirror.com/nuxt-vercel-analytics/-/nuxt-vercel-analytics-0.2.2.tgz#90eaf94c5df3ff8e722c37ea34c712d2232a5461"
+  integrity sha512-9/EG3i8ewUtRS8WA8rfvcwBJIQEMLpiP6VL0PwPEUfK+iAqA31ANd1iQ+Jijee8t6XcCra1//v4n4EVgoalDlA==
+  dependencies:
+    "@nuxt/kit" "3.5.0"
+    "@vercel/analytics" "^1.0.0"
+    defu "^6.1.2"
 
 nuxt@^3.5.0:
   version "3.5.0"
