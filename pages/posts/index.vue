@@ -51,8 +51,6 @@ const navItemsArrayByYear = await (async () => {
   return navItemsArrayByYear
 })()
 
-console.log(navItemsArrayByYear)
-
 </script>
 
 <style scoped>
