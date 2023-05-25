@@ -10,6 +10,10 @@ export default defineAppConfig({
       "light", "corporate", "business", "dracula", "night", "dark"
     ]
   },
+  components: [{
+    path: '~/components',
+    global: true
+  }],
   vercelAnalytics: {
     mode: "auto",
     debug: true,

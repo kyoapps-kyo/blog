@@ -21,7 +21,7 @@ const typedEl = ref()
 onMounted(() => {
     if (window && window !== undefined) {
         typed = new Typed(typedEl.value, {
-            strings: [`Pro${WAIT_TIME_500}duct designer${WAIT_TIME_1000} &amp;${WAIT_TIME_700} Front${WAIT_TIME_500}-end${WAIT_TIME_300} developer${WAIT_TIME_1000}`],
+            strings: [`Pro${WAIT_TIME_500}duct designer${WAIT_TIME_1000} &amp;${WAIT_TIME_700} Front${WAIT_TIME_500}-end${WAIT_TIME_300} developer${WAIT_TIME_1000}`,`Now &amp;Prompt Engineer ${WAIT_TIME_500}?${WAIT_TIME_1000}`],
             typeSpeed: 50,
             loop: true
         })

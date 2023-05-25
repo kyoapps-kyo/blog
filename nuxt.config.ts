@@ -6,7 +6,8 @@ export default defineNuxtConfig({
       'nuxt-icon',
       '@nuxt/content',
       '@nuxtjs/algolia',
-      "nuxt-vercel-analytics"
+      "nuxt-vercel-analytics",
+      '@nuxt/image-edge'
     ],
     content: {
       documentDriven: {
@@ -33,5 +34,9 @@ export default defineNuxtConfig({
       dataValue: 'theme', // activate data-theme in <html> tag
       classSuffix: '',
     },
+    components: [{
+      path: '~/components',
+      global: true
+    }]
 
 })
