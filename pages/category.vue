@@ -1,5 +1,5 @@
 <template>
-    <div>hello category</div>
+    <div class="flex justify-center items-center h-full w-full">category coming soon</div>
 </template>
 
 <script setup lang='ts'>

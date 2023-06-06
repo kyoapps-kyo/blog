@@ -1,5 +1,5 @@
 <template>
-    <div>hello tag</div>
+    <div class="flex justify-center items-center h-full w-full">tag coming soon</div>
 </template>
 
 <script setup lang='ts'>
