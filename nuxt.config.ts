@@ -7,7 +7,8 @@ export default defineNuxtConfig({
       '@nuxt/content',
       '@nuxtjs/algolia',
       "nuxt-vercel-analytics",
-      '@nuxt/image-edge'
+      '@nuxt/image-edge',
+      '@vueuse/nuxt'
     ],
     content: {
       documentDriven: {
@@ -21,6 +22,10 @@ export default defineNuxtConfig({
           },
           highlight: {
               theme: "dracula-soft",
+              preload: [
+                'vue',
+                'jsx'
+              ]
           },
     },
     app: {
