@@ -31,9 +31,9 @@ export default defineNuxtConfig({
     app: {
       pageTransition: { name: 'page', mode: 'out-in' },
     },
-    // nitro: {
-    //   preset: 'vercel'
-    // },
+    nitro: {
+      preset: 'vercel'
+    },
     colorMode: {
       preference: 'night', // default theme
       dataValue: 'theme', // activate data-theme in <html> tag
