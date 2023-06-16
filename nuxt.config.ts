@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       'nuxt-icon',
       '@nuxt/content',
       // '@nuxtjs/algolia',
-      "nuxt-vercel-analytics",
+      // "nuxt-vercel-analytics",
       '@nuxt/image-edge',
       '@vueuse/nuxt'
     ],

@@ -14,12 +14,12 @@ export default defineAppConfig({
     path: '~/components',
     global: true
   }],
-  vercelAnalytics: {
-    mode: "auto",
-    debug: true,
-    beforeSend: (event) => {
-      if (event.url.includes("/private")) return null;
-      return event;
-    },
-  },
+  // vercelAnalytics: {
+  //   mode: "auto",
+  //   debug: true,
+  //   beforeSend: (event: any) => {
+  //     if (event.url.includes("/private")) return null;
+  //     return event;
+  //   },
+  // },
 });
