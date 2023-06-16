@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       '@nuxtjs/color-mode',
       'nuxt-icon',
       '@nuxt/content',
-      '@nuxtjs/algolia',
+      // '@nuxtjs/algolia',
       "nuxt-vercel-analytics",
       '@nuxt/image-edge',
       '@vueuse/nuxt'
